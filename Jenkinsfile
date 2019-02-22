@@ -3,7 +3,6 @@ pipeline {
     stages{
         stage ('Intilize'){
             steps {
-                sh
                 echo "PATH = $PATH"
             }
         }
